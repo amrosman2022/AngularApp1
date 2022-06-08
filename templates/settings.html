@@ -1,0 +1,39 @@
+<ion-view title="Settings" id="page6">
+  <ion-content padding="true" style="background: url(img/miDmIDenQvWf3Wu9iw17_UI20Day.png) no-repeat center;background-size:cover;" class="has-header">
+    <div class="list card" id="settings-card7">
+      <div class="item item-divider"> Athan</div>
+      <div class="item item-body">
+        <div align="center">
+          <select name="cars" style="width:100%; height:50px;font-family:Arial;font-size:17px;align:center">
+            <option value="NA">Select City</option>
+            <option value="saab">Kuwait City</option>
+            <option value="fiat">Farwaniya</option>
+            <option value="audi">Salmiya</option>
+          </select>
+        </div>
+        <form id="settings-form23" class="list">
+          <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="settings-toggle14">Athan Reminder</ion-toggle>
+        </form>
+      </div>
+    </div>
+    <div class="list card" id="settings-card8">
+      <div class="item item-divider"> Mosque</div>
+      <div class="item item-body">
+        <form id="settings-form22" class="list">
+          <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="settings-toggle13">Locate</ion-toggle>
+          <div align="center">
+            <select name="cars" style="width:100%; height:50px;font-family:Arial;font-size:17px;align:center">
+              <option value="NA">Select Language</option>
+              <option value="English">English </option>
+              <option value="Urdu">Urdu</option>
+              <option value="Arabic">Arabic</option>
+            </select>
+          </div>
+        </form>
+        <a ui-sref="beaconAdmin()" id="settings-button19" class="button button-positive button-small button-block icon ion-settings"> Beacon Admin</a>
+      </div>
+    </div>
+    <div id="settings-button-bar3" class="button-bar"></div>
+    <a ui-sref="ministryOfAwqaf()" id="settings-button18" style="font-weight:600;" class="button button-positive button-small button-block icon ion-ios-home"> Home</a>
+  </ion-content>
+</ion-view>
